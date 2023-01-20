@@ -1,11 +1,15 @@
-﻿// 
+﻿// Таблица квадратов чисел до N
 
-// Console.WriteLine("Введите число: ");
-// int n = int.Parse(Console.ReadLine()!);
-
-// int[] array = new int[n];
-
-// Console.WriteLine(array[0]);
+Console.WriteLine("Введите число: ");
+int n = int.Parse(Console.ReadLine()!);
+int result = 0;
+for (int i = 1; i <= n; i++) 
+{
+    result = i * i;
+    Console.WriteLine($"Квадрат числа {i}  равен: {result}");
+}
+    
+    
 
 
 // Найти сумму чисел от 1 до А
