@@ -1,13 +1,13 @@
 ﻿// Таблица квадратов чисел до N
 
-Console.WriteLine("Введите число: ");
-int n = int.Parse(Console.ReadLine()!);
-int result = 0;
-for (int i = 1; i <= n; i++) 
-{
-    result = i * i;
-    Console.WriteLine($"Квадрат числа {i}  равен: {result}");
-}
+// Console.WriteLine("Введите число: ");
+// int n = int.Parse(Console.ReadLine()!);
+// int result = 0;
+// for (int i = 1; i <= n; i++) 
+// {
+//     result = i * i;
+//     Console.WriteLine($"Квадрат числа {i}  равен: {result}");
+// }
     
     
 
