@@ -1,7 +1,7 @@
 ﻿// Посчитать сумму чисел в числе
 
 Console.WriteLine("Введите число: ");
-string input = Console.ReadLine();
+string input = Console.ReadLine()!;
 int len = input.Length;
 int number = int.Parse(input);
 int sum = 0; 
