@@ -6,7 +6,7 @@ int[]? sum_arr = {};
 
 for (int i = 0; i < array.Length / 2; i++)
 {
-    int sum = array[i] + array[array.Length - 1 - i];
+    int sum = array[i] * array[array.Length - 1 - i];
     sum_arr = sum_arr.Append(sum).ToArray();
 }
 
