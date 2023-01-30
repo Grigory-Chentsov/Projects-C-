@@ -8,7 +8,7 @@
 Console.WriteLine("Введите координаты вершин: ");
 string? coordinates = Console.ReadLine();
 
-string StringReplace(ref string coordinates)
+string? StringReplace(ref string coordinates)
 {
     coordinates = coordinates.Replace(",", " ");
     coordinates = coordinates.Replace("(", " ");
@@ -18,7 +18,7 @@ string StringReplace(ref string coordinates)
     return coordinates;
 }
 
-StringReplace(ref coordinates);
+StringReplace(ref coordinates!);
 
 Console.WriteLine("Введите коэффициент масштабирования: ");
 double k = double.Parse(Console.ReadLine()!);
