@@ -119,7 +119,7 @@
 
 // Console.WriteLine(string.Join(", ", newarray));
 // Решение Павла
-// nt[] array = new int[] { 1, 9, 9, 0, 2, 8, 0, 9 };
+// int[] array = new int[] { 1, 9, 9, 0, 2, 8, 0, 9 };
 
 // for (int i = 0; i < array.Length; i++)
 // {
