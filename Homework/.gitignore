@@ -92,6 +92,7 @@ StyleCopReport.xml
 *.csproj
 *.log
 *.tlog
+*.vscode
 *.vspscc
 *.vssscc
 .builds

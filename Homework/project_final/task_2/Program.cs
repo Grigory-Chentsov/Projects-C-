@@ -3,24 +3,24 @@
 int M = 18;
 int N = 12;
 
-void MmoreNPrint(int M, int N)
+void MmoreNprint(int M, int N)
 {
     if (M >= N)
     {
         Console.Write(M + " ");
-        MmoreNPrint(M - 1, N);
+        MmoreNprint(M - 1, N);
     }
 }
 
-void MlessNPrint(int M, int N)
+void MlessNprint(int M, int N)
 {
     if (M <= N)
     {
-        MlessNPrint(M, N - 1);
+        MlessNprint(M, N - 1);
         Console.Write(N + " ");
     }
 
 }
 
-if(M > N) MmoreNPrint(M, N);
-else MlessNPrint(M, N);
+if(M > N) MmoreNprint(M, N);
+else MlessNprint(M, N);
